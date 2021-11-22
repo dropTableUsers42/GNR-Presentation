@@ -106,6 +106,63 @@ Per pixel L<sub>1</sub> loss between Conv output and embedding output from stage
 <img src='images/image6.png'>
 
 
+## Testing
+
+During testing, we take the pretrained guide functions for a particular class, and input them into the trained network (also dependant on the class)
+
+We have saved the trained guide functions (i.e their parameters) for people, plants and worms and use them during testing
+
 ## Results
+### People (Good Results)
+
+<img src='images/people/1.png'>
 
 
+<img src='images/people/2.png'>
+
+
+<img src='images/people/3.png'>
+
+
+<img src='images/people/4.png'>
+
+
+### Plants (Good Results)
+
+<img src='images/plant/1.png'>
+
+
+<img src='images/plant/4.png'>
+
+
+### Plants (Bad results)
+
+<img src='images/plant/2.png'>
+
+
+<img src='images/plant/3.png'>
+
+
+### Worms (Good Results)
+
+<img src='images/worm/1.png'>
+
+
+<img src='images/worm/2.png'>
+
+
+<img src='images/worm/3.png'>
+
+
+### Worms (Bad Results)
+
+<img src='images/worm/4.png'>
+
+
+<img src='images/worm/5.png'>
+
+
+<img src='images/worm/6.png'>
+
+
+<img src='images/worm/7.png'>
