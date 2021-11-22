@@ -128,6 +128,11 @@ We have saved the trained guide functions (i.e their parameters) for people, pla
 <img src='images/people/4.png'>
 
 
+### Image of our team (Pretty good result!)
+
+<img src='images/people/proce.png'>
+
+
 ### Plants (Good Results)
 
 <img src='images/plant/1.png'>
