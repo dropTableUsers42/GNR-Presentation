@@ -60,7 +60,47 @@ As discussed above, we choose harmonic functions as guide functions.
 
 <img src='images/image2.png' height=20px>
 
+Embeddings is defined by
+
+<img src='images/image3.png' height=20px>
+
+
+## Loss for stage 1
+
+We use the hinge loss as our loss function.
+
+We want to avoid collisions in the embedding space (different embeddings for different instances).
+
+<img src='images/image4.png' height=20px>
+
+Stochastic gradient descent is used to minimize the loss.
+
 
 ## Stage 2
+
+We then train the neural network E to reproduce the ground truth embedding given the inputted unsegmented image I.
+
+Guide functions f are inputted into intermediate representations of the network
+
+* Network used is dependant on type of object we are instancing
+
+* For worms we use U-Net, for people we use PSP net
+
+
+## Loss for stage 2
+
+Per pixel L<sub>1</sub> loss between Conv output and embedding output from stage 1
+
+
+<img src='images/image5.png' height=20px>
+
+
+## Guide functions as input to network
+
+The guide functions learned in stage 1 are inputted into the network to help learning
+
+* If U-Net is used, we use concatenate the downsampled guide function with the original input
+
+<img src='images/image6.png'>
 
 
