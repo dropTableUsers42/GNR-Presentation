@@ -112,6 +112,7 @@ During testing, we take the pretrained guide functions for a particular class, a
 
 We have saved the trained guide functions (i.e their parameters) for people, plants and worms and use them during testing
 
+
 ## Results
 ### People (Good Results)
 
@@ -145,24 +146,24 @@ We have saved the trained guide functions (i.e their parameters) for people, pla
 
 ### Worms (Good Results)
 
-<img src='images/worm/1.png'>
+<img src='images/worms/1.png'>
 
 
-<img src='images/worm/2.png'>
+<img src='images/worms/2.png'>
 
 
-<img src='images/worm/3.png'>
+<img src='images/worms/3.png'>
 
 
 ### Worms (Bad Results)
 
-<img src='images/worm/4.png'>
+<img src='images/worms/4.png'>
 
 
-<img src='images/worm/5.png'>
+<img src='images/worms/5.png'>
 
 
-<img src='images/worm/6.png'>
+<img src='images/worms/6.png'>
 
 
-<img src='images/worm/7.png'>
+<img src='images/worms/7.png'>
