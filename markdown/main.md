@@ -7,9 +7,11 @@ packed
 
 * The appearance variation may be particularly low
 
+
 * Excessive number of instances may be present
 
 * Complex overlaps and occlusions
+
 
 * The variability of sizes of individual instances may
 be limited. 
@@ -27,6 +29,7 @@ Note: Add main section slides here.
 
 * We can use sinusoidal guide functions as embeddings for biological images where scale variability is limited
 
+
 ## Implementation
 
 * Training split into two stages:
@@ -34,9 +37,11 @@ Note: Add main section slides here.
     * Stage 1: Learn guide functions which can produce per instance embeddings
     * Stage 2: Train a convolutional network to take as input unsegmented image and produce per instance embeddings
 
+
 * We use a sinusoidal guide functions
     * In many biomedical datasets, there is a certain (imperfect) regularity in the location of objects.
     * Such loosely-regular, semi-periodic structure calls for the use of harmonic functions as guides functions.
+
 
 ## Implementation
 

@@ -1,6 +1,6 @@
-# Instance Segmentation of Biological Images Using Harmonic Embeddings
+### Instance Segmentation of Biological Images Using Harmonic Embeddings
 
-GNR 638 Project Presentation
+## GNR 638 Project Presentation
 
 * * *
 
