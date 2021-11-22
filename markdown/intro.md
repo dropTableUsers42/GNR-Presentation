@@ -1,11 +1,13 @@
-# Title
+# Instance Segmentation of Biological Images Using Harmonic Embeddings
 
-Subtitle or catchy tagline
+GNR 638 Project Presentation
 
 * * *
 
-Speaker Name | [@speaker](https://twitter.com/speaker)
+Rwitaban Goswami (18D070026)
 
-Event | Date
+Arpit Singh (18D070039)
+
+Varun Jha (180100124)
 
 Note: Add introductory slides here.
