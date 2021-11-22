@@ -36,6 +36,7 @@ Note: Add main section slides here.
     * Stage 1: Learn guide functions which can produce per instance embeddings
     * Stage 2: Train a convolutional network to take as input unsegmented image and produce per instance embeddings
 
+
 * We use a sinusoidal guide functions
     * In many biomedical datasets, there is a certain (imperfect) regularity in the location of objects.
     * Such loosely-regular, semi-periodic structure calls for the use of harmonic functions as guides functions.
@@ -48,19 +49,18 @@ Note: Add main section slides here.
 
 ## Stage 1
 
+At train-time, we embed each pixel of the ground truth segmented image S<sup>I</sup> as the mean of predefined guide functions f over instance pixels it belongs to, resulting in embeddings e(S,	Ψ)
+
+We train the guide functions by learning the parameter of the function (eg the frequency and phase)
 
 
-Just some text
+## Choice of Guide Function
 
-```bash
-#!/bin/sh
+As discussed above, we choose harmonic functions as guide functions.
 
-# This is a code snippet.
-# It comes with syntax highlighting.
+<img src='images/image2.png' height=20px>
 
-NUM=5
 
-for i in `seq $NUM`; do
-  echo "hello world $i"
-done
-```
+## Stage 2
+
+
