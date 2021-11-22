@@ -91,16 +91,15 @@ Guide functions f are inputted into intermediate representations of the network
 
 Per pixel L<sub>1</sub> loss between Conv output and embedding output from stage 1
 
-
 <img src='images/image5.png' height=20px>
 
 
 ## Guide functions as input to network
 
-The guide functions learned in stage 1 are inputted into the network to help learning
+* The guide functions learned in stage 1 are inputted into the network
 
 * If U-Net is used, we use concatenate the downsampled guide function with the original input
 
-<img src='images/image6.png'>
+<img src='images/image6.png' height=30px>
 
 
