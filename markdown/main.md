@@ -100,6 +100,12 @@ Per pixel L<sub>1</sub> loss between Conv output and embedding output from stage
 
 * If U-Net is used, we use concatenate the downsampled guide function with the original input
 
-<img src='images/image6.png' height=30px>
+
+## Guide functions as input to network
+
+<img src='images/image6.png'>
+
+
+## Results
 
 
